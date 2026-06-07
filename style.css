@@ -59,10 +59,20 @@ header{
   display:flex;
   justify-content:space-between;
   align-items:center;
-  padding:20px 0;
+  /* padding:20px 0; */
+  padding: 0;
+  height: 70px;
 }
+.logo-img{
+  height: 70px;
+  width: auto;
+  object-fit: contain;
+  display: flex;
+  align-items: center;
 
+}
 .logo{
+  
     color: var(--primary);
 }
 
